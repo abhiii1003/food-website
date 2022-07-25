@@ -1,0 +1,43 @@
+body{
+    
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 15px;
+    height: 559px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+#home::before{
+    height: 683px;
+}
+#home p{
+    font-size: 26px;
+}
+#home .h-primary{
+    font-size: 26px;
+}
+#navbar{
+    flex-direction: column;
+}
+#logo img{
+    height: 47px;
+    width: 40px;
+}
+#services {
+    flex-direction: column;
+}
+#clients{
+    overflow: hidden ;
+     
+}
+footer{background-color: black;
+    color: blanchedalmond;
+    padding: 0;      
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
